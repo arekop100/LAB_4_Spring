@@ -10,6 +10,7 @@ import java.util.List;
 @Component
 public class MovieListMapper {
 
+
     public List<MovieDto> mapToDto(List<Movie> movies) {
         List<MovieDto> moviesDto = new ArrayList<>();
 
@@ -24,7 +25,6 @@ public class MovieListMapper {
             moviesDto.add(movieDto);
 
         }
-
         return moviesDto;
     }
 }

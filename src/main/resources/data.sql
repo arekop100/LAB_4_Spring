@@ -1,11 +1,13 @@
 DROP TABLE IF EXISTS movies;
 
+
 CREATE TABLE movies (
 	movie_id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 	title VARCHAR(100),
 	image VARCHAR(300),
 	year INT(4)
 );
+
 
 INSERT INTO movies VALUES (1, 'Piraci z Krzemowej Doliny', 'http://1.fwcdn.pl/po/30/02/33002/6988507.6.jpg', 1999);
 INSERT INTO movies VALUES (2, 'Ja, robot', 'http://1.fwcdn.pl/po/54/92/95492/6918828.2.jpg', 2004);
